@@ -1,26 +1,29 @@
 body{
     margin: 100px;
+    align-items: center;
+    justify-content: center;
 }
 .main{
     display: grid;
     grid-template-columns: 2fr 0.5fr;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     column-gap: 1rem;
-    height:px;
+    justify-self: center;
+    align-self: center;
 }
 .box1{
     display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
     align-content: center;
-    height: 700px;
 }
 .sec1{
     display: grid;
     grid-template-columns: 2fr 1fr;
     height: px;
     column-gap: 1rem;
+    
     
 }
 .sec2{
@@ -30,49 +33,74 @@ body{
     column-gap: 1rem;
 }
 .box2{
-    display: grid;
-    column-gap: 1rem;
-    height:px;
+    
+
+
 }
+
 .p1{
     background-color: blueviolet;
-    text-align: justify;
+    text-align: left;
     border: 0;
     border-radius:10px ;
+    padding: 10px;
+    width: fit-content;
 }
 .p2{
     background-color: green;
-    text-align: justify;
+    text-align: left;
     border: 0;
     border-radius:10px ;
+    padding: 10px;
+    width: fit-content;
 }
 .p3{
     background-color: yellow;
-    text-align: justify;
+    text-align: left;
     border: 0;
     border-radius:10px ;
+    padding: 10px;
+    width: fit-content;
 }
 .p4{
     background-color: red;
-    text-align: justify;
+    text-align: left;
     border: 0;
     border-radius:10px ;
+    padding: 10px;
+    width: fit-content;
 }
 .p5{
     background-color: orange;
-    text-align:justify;
+    text-align:left;
     border: 0;
-    border-radius:10px ;
-
-
+    border-radius:10px;
+    padding: 10px;
+    width: fit-content;
 }
+.daniel{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+
+
 img{
     width :50px;
     border: 0;
     border-radius: 100%;
+    padding-left: 10 px;
+    align-self:center;
+    justify-self: center;
+    
+
 
 }
-
+footer{
+    align-self: flex-end;
+}
 
 .attribution {
       font-size: 11px;
